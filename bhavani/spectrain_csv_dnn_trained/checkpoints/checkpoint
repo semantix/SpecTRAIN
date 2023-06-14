@@ -1,0 +1,2 @@
+model_checkpoint_path: "spectrain_csv_dnn"
+all_model_checkpoint_paths: "spectrain_csv_dnn"
