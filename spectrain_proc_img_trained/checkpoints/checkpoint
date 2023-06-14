@@ -1,0 +1,2 @@
+model_checkpoint_path: "spectrain_proc_img"
+all_model_checkpoint_paths: "spectrain_proc_img"
