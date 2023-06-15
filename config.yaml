@@ -9,7 +9,7 @@ workerPoolSpecs:
     args:
     - --train_data_path=gs://spectrain//bhavani/train_images
     - --eval_data_path=gs://spectrain//bhavani/valid_images
-    - --output_dir=gs://spectrain//spectrain_cnn/trained_model_20230614_072535
+    - --output_dir=gs://spectrain//spectrain_cnn/trained_model_20230614_184948
     - --num_epochs=10
     - --train_examples=10000
     - --eval_steps=100

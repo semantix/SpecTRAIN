@@ -126,7 +126,7 @@ def train_and_evaluate(args):
     history = model.fit(
         trainds,
         validation_data=evalds,
-        epochs=args["batch_size"],
+        epochs=args["num_epochs"],
         steps_per_epoch=steps_per_epoch,
         verbose=2,
         callbacks=[cp_callback, HPTCallback()])
